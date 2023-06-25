@@ -1,0 +1,22 @@
+            .kart-baslik,
+            .kart-deger {
+                color: #6a6cff;
+                font-size: 21px;
+              }
+              
+            .card {
+                padding: 4px;
+                transition: transform 0.3s ease-in-out;
+              }
+              
+            .card:hover {
+                transform: scale(1.05);
+              }
+              
+            .card-body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+              }
